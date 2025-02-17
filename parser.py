@@ -32,6 +32,5 @@ def writing_o_db(data: dict) -> None:
 
 
 if __name__ == '__main__':
-    parser()
-    # data = parser() # Данные с сайта {1: 308.35, ...}
-    # writing_o_db(data)
+    data = parser() # Данные с сайта {1: 308.35, ...}
+    writing_o_db(data)
